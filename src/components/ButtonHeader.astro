@@ -1,5 +1,10 @@
-
-<a 
+---
+interface props{
+    links: string
+}
+const { links } = Astro.props
+---
+<a href= {links}
     class="flex-row justify-center  text-white cursor-pointer hover:bg-sky-400 focus:ring-4 
     focus:outline-none focus:ring-[#1da1f2]/50 font-medium rounded-lg px-5 py-2.5 text-center 
     inline-flex items-center dark:focus:ring-[#1da1f2]/55 mr-2 mb-2 hover:shadow-lg transition-all 
