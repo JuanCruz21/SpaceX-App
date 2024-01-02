@@ -13,7 +13,7 @@ export const getLaunchesById = async ({id}) => {
             sort: {
                 date_unix: "asc",
             },
-            limit: 12,
+            limit: 30,
             },
         }),
     })
@@ -35,7 +35,7 @@ export const getLaunches = async () => {
             sort: {
                 date_unix: "asc",
             },
-            limit: 12,
+            limit: 32,
             },
         }),
     })
